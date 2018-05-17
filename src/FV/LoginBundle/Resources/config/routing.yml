@@ -1,0 +1,8 @@
+fv_login_homepage:
+    path:     /
+    defaults: { _controller: FVLoginBundle:Default:index }
+
+# src/OC/PlatformBundle/Resources/config/routing.yml
+hello_the_world:
+    path:     /hello-world
+    defaults: { _controller: FVLoginBundle:Advert:index }

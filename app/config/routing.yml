@@ -1,0 +1,7 @@
+fv_login:
+    resource: "@FVLoginBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

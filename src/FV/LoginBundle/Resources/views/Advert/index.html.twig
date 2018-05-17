@@ -1,0 +1,45 @@
+{# src/FV/LoginBundle/Resources/views/Advert/index.html.twig #}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bienvenue sur ma première page avec OpenClassrooms !</title>
+  </head>
+  <body>
+    <h1>Hello {{ nom }} !</h1>
+
+    <p>
+      Le Hello World est un grand classique en programmation.
+      Il signifie énormément, car cela veut dire que vous avez
+      réussi à exécuter le programme pour accomplir une tâche simple :
+      afficher ce hello world !
+    </p>
+
+    
+
+    <script src="C:/xampp/htdocs/blog/vendor/vue.js"></script>
+	
+	
+	Vue.component('my-component', {
+    template: '#my-component',
+    data: function () {
+        return {
+            greeting: 'Hello'
+        };
+    }
+	});
+
+
+	<script id="my-component" type="x-template">
+    <div>
+    	{% verbatim %}
+        <h1>{{ greeting }}</h1>
+        {% endverbatim %}
+    </div>
+	</script>
+
+	
+  </body>
+</html>
+
+
